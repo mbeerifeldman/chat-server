@@ -85,9 +85,11 @@ class ChatHandler implements URLHandler {
               }
               if (new String(Character.toChars(character)).equals("😂")) {
                 analysis = " This message has a LOL vibe.";
+		characterIndex += 1;
               }
               if (new String(Character.toChars(character)).equals("🥹")) {
                 analysis = " This message has a awwww vibe.";
+		characterIndex += 1;
               } else {
               characterIndex += 1;
                }
